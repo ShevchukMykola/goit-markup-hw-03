@@ -1,0 +1,230 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* background color body #FFFFFF
+ background color section #E5E5E5
+ color primary text, color contact #757575
+ coloe title text, color link #212121
+ background color hero hw1 #2F303A 
+ link hover, contact hover  #2196F3*/
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-primary-color: #757575;
+  --text-title-color: #212121;
+  --text-nav-color: #2196f3;
+  --background-button: #f5f4fa;
+}
+/* logo nav and footer */
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+
+  color: #000000;
+
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo .blue {
+  color: var(--text-nav-color);
+}
+/* site list */
+.header {
+  border-bottom: 1px solid #ececec;
+  letter-spacing: 0.02em;
+}
+.header ul {
+  list-style: none;
+  line-height: 1.2;
+}
+.site-list .link {
+  color: var(--text-title-color);
+
+  font-weight: 500;
+  text-decoration: none;
+}
+.site-list .link:hover,
+.site-list .link:focus {
+  color: var(--text-nav-color);
+}
+.site-list .link-current {
+  font-weight: 500;
+  text-decoration: none;
+
+  color: var(--text-nav-color);
+}
+/* header contact */
+.contact .contact-list {
+  color: var(--text-primary-color);
+
+  text-decoration: none;
+  font-weight: 500;
+}
+.contact .contact-list:hover,
+.contact .contact-list:focus {
+  color: var(--text-nav-color);
+}
+/* main hero студия*/
+.main ul {
+  list-style: none;
+}
+.hero {
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.hero h1 {
+  background-color: #2f303a;
+  color: #ffffff;
+
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero-buttom {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 10px 32px;
+
+  min-height: 50px;
+
+  background-color: var(--text-nav-color);
+  color: var(--background-button);
+
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.9;
+}
+.hero-buttom:hover,
+.hero-buttom:focus {
+  background-color: #188ce8;
+  color: #fff;
+}
+/* main benefits студия*/
+.benefits .benefits-title {
+  color: var(--text-title-color);
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.list-paragraph {
+  line-height: 1.7;
+}
+/* main work студия*/
+.work h2,
+.team h2 {
+  margin: 0;
+  padding: 0;
+
+  color: var(--text-title-color);
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+/* main team студия*/
+.team-list {
+  font-weight: 400;
+  font-size: 16px;
+}
+.team-list > .list-name {
+  color: var(--text-title-color);
+  font-weight: 500;
+}
+/* footer */
+.footer {
+  line-height: 1.7;
+
+  background-color: #2f303a;
+  color: #fff;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+
+  color: #fff;
+  text-decoration: none;
+}
+.footer-logo .blue {
+  color: var(--text-nav-color);
+}
+.fooret-address {
+  font-style: normal;
+}
+.contact-footer {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer ul {
+  list-style: none;
+  font-style: normal;
+}
+/* main portfolio */
+.project {
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* porfolio button */
+.list-buttom {
+  border-radius: 4px;
+  border: 1px solid var(--background-button);
+  min-height: 38px;
+  padding: 6px 22.02px;
+
+  background-color: var(--background-button);
+  color: var(--text-title-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.6;
+
+  cursor: pointer;
+}
+
+.list-buttom:hover,
+.list-buttom:focus {
+  border: 1px solid var(--text-nav-color);
+  background-color: var(--text-nav-color);
+  color: #fff;
+}
+/* portfolio project */
+.project .list-title {
+  color: var(--text-title-color);
+
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
