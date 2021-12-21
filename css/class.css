@@ -63,7 +63,7 @@ ul {
 .section {
   padding: 94px 0;
 }
-/* header */
+/* ------------HEADER-------------*/
 .header {
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@ ul {
 .header-nav {
   display: flex;
 }
-/* logo nav and footer */
+/* ------------LOGO NAV AND FOOTER------------- */
 .logo {
   padding: 24px 0 25px 0;
 
@@ -94,7 +94,7 @@ ul {
   color: var(--text-nav-color);
 }
 
-/* header site nav */
+/*------------HEADER SITE NAV-------------*/
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -120,7 +120,7 @@ ul {
   text-decoration: none;
   color: var(--text-nav-color);
 }
-/* header contact */
+/* ------------HEADER CONTACT------------- */
 .contact {
   display: flex;
   margin-left: auto;
@@ -139,7 +139,7 @@ ul {
 .contact .contact-nav:focus {
   color: var(--text-nav-color);
 }
-/* main hero студия*/
+/*------------ MAIN HERO СТУДІЯ-------------*/
 .main .hero {
   background-color: #2f303a;
 }
@@ -187,7 +187,7 @@ ul {
   background-color: #188ce8;
   color: #fff;
 }
-/* main benefits студия*/
+/* ------------MAIN BENEFITS СТУДІЯ-------------*/
 
 .benefits-list {
   display: flex;
@@ -209,7 +209,7 @@ ul {
 .list-paragraph {
   line-height: 1.7;
 }
-/* main work студия*/
+/* ------------MAIN WORK СТУДІЯ-------------*/
 .work {
   padding-top: 0;
 }
@@ -231,7 +231,7 @@ ul {
 .work-title .title-list + .title-list {
   margin-left: 30px;
 }
-/* main team студия*/
+/* ------------MAIN TEAM СТУДІЯ-------------*/
 .team {
   background-color: #f5f4fa;
 }
@@ -262,7 +262,7 @@ ul {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-/* footer */
+/*------------FOOTER-------------*/
 .footer {
   display: block;
   padding-top: 60px;
@@ -304,13 +304,12 @@ ul {
 .footer ul {
   font-style: normal;
 }
-/* main portfolio */
-
+/* ------------MAIN PORTFOLIO-------------*/
 .project {
   font-size: 16px;
   line-height: 1.9;
 }
-/* porfolio button */
+/* ------------PORTFOLIO BUTTOM------------*/
 .project-item {
   display: flex;
   justify-content: center;
@@ -340,7 +339,7 @@ ul {
   background-color: var(--text-nav-color);
   color: #fff;
 }
-/* portfolio project */
+/* ------------PORTFOLIO PROJECT------------- */
 .list-project {
   display: flex;
   flex-wrap: wrap;
