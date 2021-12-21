@@ -32,6 +32,9 @@ li {
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style: none;
+}
 
 :root {
   --text-primary-color: #757575;
@@ -39,8 +42,23 @@ li {
   --text-nav-color: #2196f3;
   --background-button: #f5f4fa;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .section {
   padding: 94px 0;
@@ -55,7 +73,6 @@ li {
   letter-spacing: 0.02em;
 }
 .header ul {
-  list-style: none;
   line-height: 1.2;
 }
 /* site list */
@@ -123,17 +140,13 @@ li {
   color: var(--text-nav-color);
 }
 /* main hero студия*/
-/* .main {
-} */
-.main ul {
-  list-style: none;
+.main .hero {
+  background-color: #2f303a;
 }
 .hero {
   display: block;
   min-height: 600px;
   padding: 0 15px;
-
-  background-color: #2f303a;
 
   letter-spacing: 0.06em;
   text-align: center;
@@ -175,15 +188,12 @@ li {
   color: #fff;
 }
 /* main benefits студия*/
-.benefits {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .benefits-list {
   display: flex;
 }
 .benefits-list .list-benefits + .list-benefits {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 .benefits .benefits-title {
   color: var(--text-title-color);
@@ -194,16 +204,16 @@ li {
   text-transform: uppercase;
 }
 .benefits-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .list-paragraph {
   line-height: 1.7;
 }
 /* main work студия*/
 .work {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 0;
 }
+
 .work h2,
 .team h2 {
   padding-bottom: 50px;
@@ -223,9 +233,6 @@ li {
 }
 /* main team студия*/
 .team {
-  padding-left: 15px;
-  padding-right: 15px;
-
   background-color: #f5f4fa;
 }
 .team-title {
@@ -235,6 +242,13 @@ li {
   margin-left: 30px;
 }
 .team-list {
+  padding-bottom: 30px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
   text-align: center;
 
   font-weight: 400;
@@ -245,11 +259,12 @@ li {
   font-weight: 500;
 }
 .list-name {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 /* footer */
 .footer {
+  display: block;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -259,7 +274,6 @@ li {
   color: #fff;
 }
 .footer-logo {
-  padding-top: 20px;
   font-family: "Raleway";
   font-size: 26px;
 
@@ -267,25 +281,31 @@ li {
   text-decoration: none;
 }
 .footer-logo .blue {
+  margin: 0;
+  padding: 0;
+
   color: var(--text-nav-color);
 }
 .fooret-address {
   font-style: normal;
 }
+.paragraph {
+  margin-top: 20px;
+  display: block;
+}
 .footer-list {
+  margin-top: 9px;
+}
+.list {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 .footer ul {
-  list-style: none;
   font-style: normal;
 }
 /* main portfolio */
-.main {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .project {
   font-size: 16px;
   line-height: 1.9;
@@ -328,22 +348,24 @@ li {
   padding-top: 50px;
 }
 
-.list-project .project-picture + .project-picture {
-  padding-bottom: 20px;
-}
+/* .list-project .project-picture + .project-picture {
+  margin-bottom: 20px;
+} */
 .project-picture {
   margin-right: 30px;
   margin-bottom: 30px;
+
+  border-bottom: 1px solid tomato;
 }
 .project-picture:nth-child(3n) {
   margin-right: 0;
 }
 .project-picture:nth-child(-n + 3) {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 .list-title {
-  padding-top: 20px;
-  padding-bottom: 4px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .project .list-title {
   color: var(--text-title-color);
