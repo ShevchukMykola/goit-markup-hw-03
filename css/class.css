@@ -63,6 +63,9 @@ ul {
 .section {
   padding: 94px 0;
 }
+.no-gap {
+  display: block;
+}
 /* ------------HEADER-------------*/
 .header {
   align-items: center;
