@@ -19,30 +19,31 @@
 </head>
 
 <body>
-    <header class="header container">
-
-        <!-- top line -->
-        <nav class="header-nav">
-            <a href="С" class="logo"> <span class="blue">Web</span>Studio </a>
-            <!-- site list -->
-            <ul class="site-nav">
-                <li class="site-list"><a href="./index.html" class="link">Студия</a></li>
-                <li class="site-list"><a href="./portfolio.html" class="link-current">Портфолио</a></li>
-                <li class="site-list"><a Href="C" class="link">Контакты</a></li>
+    <header class="header">
+        <div class="container header-container">
+            <!-- top line -->
+            <nav class="header-nav">
+                <a href="С" class="logo"> <span class="blue">Web</span>Studio </a>
+                <!-- site list -->
+                <ul class="site-nav">
+                    <li class="site-list"><a href="./index.html" class="link">Студия</a></li>
+                    <li class="site-list"><a href="./portfolio.html" class="link-current">Портфолио</a></li>
+                    <li class="site-list"><a Href="C" class="link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contact">
+                <li class="contact-list"> <a href="mailto:info@devstudio.com" rel="noopener noreferrer"
+                        class="contact-nav">info@devstudio.com</a></li>
+                <li class="contact-list"> <a href="tel:+380991111111" rel="noopener noreferrer" class="contact-nav">+38
+                        099 111 11 11</a>
+                </li>
             </ul>
-        </nav>
-        <ul class="contact">
-            <li class="contact-list"> <a href="mailto:info@devstudio.com" rel="noopener noreferrer"
-                    class="contact-nav">info@devstudio.com</a></li>
-            <li class="contact-list"> <a href="tel:+380991111111" rel="noopener noreferrer" class="contact-nav">+38
-                    099 111 11 11</a>
-            </li>
-        </ul>
+        </div>
 
     </header>
     <main class="main">
-        <div class="container">
-            <section class="project section">
+        <section class="project section">
+            <div class="container">
                 <h1 class="visually-hidden">project</h1>
                 <!-- butoon -->
                 <ul class="project-item">
@@ -56,52 +57,81 @@
                 <ul class="list-project">
                     <li class="project-picture">
                         <img src="./img/img.jpg" alt="Технокряк" width="370">
-                        <p class="list-title">Технокряк</p>
-                        <p>Веб-сайт</p>
+                        <div class="card">
+                            <p class="list-title">Технокряк</p>
+                            <p>Веб-сайт</p>
+                        </div>
+
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/basketball.jpg" alt="Постер New Orlean vs Golden Star" width="370">
-                        <p class="list-title">Постер New Orlean vs Golden Star</p>
-                        <p>Дизайн</p>
+                        <div class="card">
+                            <p class="list-title">Постер New Orlean vs Golden Star</p>
+                            <p>Дизайн</p>
+                        </div>
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/restoraunt.jpg" alt="Ресторан Seafood" width="370">
-                        <p class="list-title">Ресторан Seafood</p>
-                        <p>Приложение</p>
+                        <div class="card">
+                            <p class="list-title">Ресторан Seafood</p>
+                            <p>Приложение</p>
+                        </div>
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/headphone.jpg" alt="Проект Prime" width="370">
-                        <p class="list-title">Проект Prime</p>
-                        <p>Маркетинг</p>
+                        <div class="card">
+                            <p class="list-title">Проект Prime</p>
+                            <p>Маркетинг</p>
+                        </div>
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/box.jpg" alt="Проект Boxes" width="370">
-                        <p class="list-title">Проект Boxes</p>
-                        <p>Приложение</p>
+                        <div class="card">
+                            <p class="list-title">Проект Boxes</p>
+                            <p>Приложение</p>
+                        </div>
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/website.jpg" alt="Inspiration has no Borders" width="370">
-                        <p class="list-title">Inspiration has no Borders</p>
-                        <p>Веб-сайт</p>
+                        <div class="card">
+                            <p class="list-title">Inspiration has no Borders</p>
+                            <p>Веб-сайт</p>
+                        </div>
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/magazine.jpg" alt="Издание Limited Edition" width="370">
-                        <p class="list-title">Издание Limited Edition</p>
-                        <p>Дизайн</p>
+                        <div class="card">
+                            <p class="list-title">Издание Limited Edition</p>
+                            <p>Дизайн</p>
+                        </div>
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/marketing.jpg" alt="Проект LAB" width="370">
-                        <p class="list-title">Проект LAB</p>
-                        <p>Маркетинг</p>
+                        <div class="card">
+                            <p class="list-title">Проект LAB</p>
+                            <p>Маркетинг</p>
+                        </div>
                     </li>
+
                     <li class="project-picture">
                         <img src="./img/application.jpg" alt="Growing Business" width="370">
-                        <p class="list-title"> Growing Business</p>
-                        <p>Приложение</p>
+                        <div class="card">
+                            <p class="list-title"> Growing Business</p>
+                            <p>Приложение</p>
+                        </div>
                     </li>
+
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
+
     </main>
     <!-- footer -->
     <footer class="footer">

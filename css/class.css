@@ -65,12 +65,14 @@ ul {
 }
 /* ------------HEADER-------------*/
 .header {
-  display: flex;
   align-items: center;
   padding: 0 15px;
 
   border-bottom: 1px solid #ececec;
   letter-spacing: 0.02em;
+}
+.header-container {
+  display: flex;
 }
 .header ul {
   line-height: 1.2;
@@ -144,24 +146,29 @@ ul {
   background-color: #2f303a;
 }
 .hero {
-  display: block;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   min-height: 600px;
-  padding: 0 15px;
 
   letter-spacing: 0.06em;
   text-align: center;
 }
-.hero h1 {
-  margin: 0 237px;
-  padding: 200px 46px 30px;
+.container-hero {
+  padding-left: 237px;
+  padding-right: 237px;
+}
 
+.hero-title {
+  padding-left: 42px;
+  margin-bottom: 30px;
+  max-width: 696px;
   color: #ffffff;
 
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
 
-  text-align: center;
   text-transform: uppercase;
 }
 .hero-buttom {
@@ -192,6 +199,9 @@ ul {
 .benefits-list {
   display: flex;
 }
+.list-benefits {
+  width: 270px;
+}
 .benefits-list .list-benefits + .list-benefits {
   margin-left: 30px;
 }
@@ -216,7 +226,7 @@ ul {
 
 .work h2,
 .team h2 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   text-align: center;
   color: var(--text-title-color);
@@ -340,6 +350,9 @@ ul {
   color: #fff;
 }
 /* ------------PORTFOLIO PROJECT------------- */
+.project > .container {
+  padding: 0;
+}
 .list-project {
   display: flex;
   flex-wrap: wrap;
@@ -347,25 +360,30 @@ ul {
   padding-top: 50px;
 }
 
-/* .list-project .project-picture + .project-picture {
-  margin-bottom: 20px;
-} */
 .project-picture {
   margin-right: 30px;
   margin-bottom: 30px;
 
-  border-bottom: 1px solid tomato;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
+
 .project-picture:nth-child(3n) {
   margin-right: 0;
 }
 .project-picture:nth-child(-n + 3) {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-.list-title {
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24.02px;
+}
+/* .list-title {
   margin-top: 20px;
   margin-bottom: 4px;
-}
+} */
 .project .list-title {
   color: var(--text-title-color);
 
