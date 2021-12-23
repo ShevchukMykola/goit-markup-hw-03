@@ -354,7 +354,7 @@ ul {
 }
 /* ------------PORTFOLIO PROJECT------------- */
 .project > .container {
-  padding: 0;
+  padding-right: 0;
 }
 .list-project {
   display: flex;
