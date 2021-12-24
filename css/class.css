@@ -353,9 +353,9 @@ ul {
   color: #fff;
 }
 /* ------------PORTFOLIO PROJECT------------- */
-.project > .container {
+/* .project > .container {
   padding-right: 0;
-}
+} */
 .list-project {
   display: flex;
   flex-wrap: wrap;
@@ -366,10 +366,6 @@ ul {
 .project-picture {
   margin-right: 30px;
   margin-bottom: 30px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 
 .project-picture:nth-child(3n) {
@@ -379,6 +375,10 @@ ul {
   margin-bottom: 30px;
 }
 .card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24.02px;
